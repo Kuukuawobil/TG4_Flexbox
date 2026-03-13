@@ -1,0 +1,31 @@
+
+nav{
+    background-color: rgb(4, 110, 101);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.Home{
+    margin-left: auto;
+    gap: 5px;
+}
+
+.About{
+    margin-left: auto;
+    gap: 5px;
+}
+
+.Staff{
+    margin-left: auto;
+    gap: 5px;
+}
+
+.Contact{
+    margin-left: auto;
+    gap: 5px;
+}
