@@ -1,5 +1,5 @@
 
-/*nav{
+nav{
     background-color: rgb(4, 110, 101);
     width: 100%;
     height: 60px;
@@ -8,7 +8,27 @@
     align-items: center;
     padding: 0 20px;
     color: white;
+    position: fixed;
 }
+
+.nav-links{
+    display: flex;
+    gap: 200px;
+    margin-left: auto;
+    list-style: none;
+    color: #fafafa;
+    text-decoration: none;
+
+}
+
+.nav-links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
 
 .Home{
     text-decoration: aliceblue;
@@ -34,35 +54,7 @@
     gap: 5px;
 }
 
-.nav-image{
-    align-items: center;
-}
 
-.f-box{
-
-}
-
-.pic-1{
-    background-color:rgb(214, 190, 190);
-    width: 23%;
-    height:590px;
-}
-
-.about-container{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.about-image{
-    width: 300px;
-    height: auto;
-    
-}
-
-.about{
-    flex:1;
-}*/
 
 *{
    margin:0;
@@ -71,11 +63,11 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-image{
-    width: 100%;
-    height: 350px;
+/* .nav-image{
+    width: 200px;
+    height: 100px;
     object-fit: cover;
-}
+} */
 
 .container{
     display: flex;
@@ -154,4 +146,28 @@
     margin-top: 8px;
     margin-top: 8px;
     font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.big-bottom{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.big-bottom img{
+    width: 500px;
+    height: 600px;
+    
+}
+
+.bottom-text{
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(4, 110, 101);
+    color: white;
+    border-radius: 8px;
 }
